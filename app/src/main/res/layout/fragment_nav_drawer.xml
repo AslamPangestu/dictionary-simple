@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:padding="10dp"
+        android:background="@color/colorAccent"
+        android:id="@+id/header_nav_drawer"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:orientation="vertical">
+
+        <ImageView
+            android:padding="10dp"
+            android:id="@+id/icon_nav_drawer"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@mipmap/ic_app"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:id="@+id/welcome_nav_drawer"
+            android:layout_width="wrap_content"
+            android:layout_gravity="center"
+            android:textColor="@color/textColor"
+            android:text="@string/welcome"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_margin="15dp"
+        android:id="@+id/list_drawer_items"
+        android:isScrollContainer="false"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>

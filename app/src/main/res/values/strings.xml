@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Kamus</string>
+    <string name="welcome">Selamat datang di kamusku</string>
+
+    <string name="nav_item_home">Home</string>
+    <string name="nav_item_iden">Indonesia - English</string>
+    <string name="nav_item_enid">English - Indonesia</string>
+    <string name="drawer_open">open</string>
+    <string name="drawer_close">close</string>
+    <string name="chose_lang_text">Silahkan pilih terjemahan dengan membuka nav bar</string>
+    <string name="id_en_btn">ID-EN</string>
+    <string name="en_id_btn">EN-ID</string>
+    <string name="app_first_run">first run</string>
+    <string name="find_enid">Find</string>
+
+    <string name="means">Arti :</string>
+    <string name="find_iden">Cari</string>
+
+    <!--List labels nav drawer-->
+    <string-array name="nav_drawer_items">
+        <item>@string/nav_item_home</item>
+        <item>@string/nav_item_iden</item>
+        <item>@string/nav_item_enid</item>
+    </string-array>
+</resources>
